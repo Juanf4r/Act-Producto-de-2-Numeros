@@ -14,6 +14,9 @@ int main()
     std::cout << "Ingrese el valor del Primer Producto: "; std::cin >> n1; std::cout << "\n";
     std::cout << "Ingrese el valor del Segundo Producto: "; std::cin >> n2; std::cout << "\n";
 
+    std::cout << "Calculando resultado"; std::cout << "."; Sleep(500); std::cout << "."; Sleep(500);
+    std::cout << "."; Sleep(500); std::cout << "."; Sleep(500); std::cout << ".\n\n"; Sleep(500);
+
     p = producto(n1, n2);
 
     std::cout << "El resultado es: " << p <<"\n\n";
